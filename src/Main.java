@@ -11,7 +11,9 @@ public class Main {
         int number;
         int sum = 0;
         for(int i = 0; i <= 5; i++){
-            number = randomGenerator.nextInt((200 - 1) + 1 ) + 1;
+            number = randomGenerator.nextInt((500 - 1) + 1 ) + 500;
+            System.out.println(number);
+
             sum += number;
         }
         System.out.print(sum);
